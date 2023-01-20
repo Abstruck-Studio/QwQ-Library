@@ -50,7 +50,7 @@ If you want to custom an Event, for example:
 
 ```java
 
-public static class AfterBreakEvent implements IEvent{
+public class AfterBreakEvent implements IEvent{
         private final World world;
         private final PlayerEntity player;
         private final BlockPos pos;
