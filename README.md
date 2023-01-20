@@ -1,5 +1,6 @@
 ![issues](https://img.shields.io/github/issues/Abstruck-Studio/QwQ-Library?style=for-the-badge) 
 ![forks](https://img.shields.io/github/forks/Abstruck-Studio/QwQ-Library?style=for-the-badge)
+![stars](https://img.shields.io/github/stars/Abstruck-Studio/QwQ-Library?style=for-the-badge)
 ![license](https://img.shields.io/github/license/Abstruck-Studio/QwQ-Library?style=for-the-badge)
 # QwQ-Library
 A Fabric Lib Mod.  
