@@ -1,5 +1,5 @@
 # QwQ-Library
-A Fabric Lib Mod.
+A Fabric Lib Mod.  
 You can registr like this:
 
 ```java
@@ -43,7 +43,7 @@ public void onInitialize() {
 }
 
 ```
-Remember! Don't mix Mixin Class with SubscribeEvent Class, it will error!
+__Remember! Don't mix Mixin Class with SubscribeEvent Class, it will error!__  
 
 
 If you want to custom an Event, for example:
