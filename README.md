@@ -2,7 +2,7 @@
 ![forks](https://img.shields.io/github/forks/Abstruck-Studio/QwQ-Library?style=for-the-badge)
 ![stars](https://img.shields.io/github/stars/Abstruck-Studio/QwQ-Library?style=for-the-badge)
 ![license](https://img.shields.io/github/license/Abstruck-Studio/QwQ-Library?style=for-the-badge)
-# QwQ-Library
+# QωQ-Library
 A Fabric Lib Mod.  
 You can registr like this:
 
