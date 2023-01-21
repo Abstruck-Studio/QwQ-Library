@@ -4,7 +4,7 @@
 ![license](https://img.shields.io/github/license/Abstruck-Studio/QwQ-Library?style=for-the-badge)
 # QωQ-Library
 A Fabric Lib Mod.  
-You can registr like this:
+You can register like this:
 
 ```java
 public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(Registry.ITEM, MOD_ID);
@@ -12,7 +12,7 @@ public static final Item EXAMPLE_ITEM = ITEMS.register("example_item", () -> new
 ```
 
 Block or other object are zhe same.
-Don't forge, add this into your Main Class:
+Don't forget, add this into your Main Class:
 
 ```java
 
