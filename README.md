@@ -8,7 +8,7 @@ You can register like this:
 
 ```java
 
-public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(Registry.ITEM, MOD_ID);
+public static final Registration<Item> ITEMS = new Registration<>(Registry.ITEM, MOD_ID);
 public static final Item EXAMPLE_ITEM = ITEMS.register("example_item", () -> new Item(new Item.Settings()));
 
 ```
