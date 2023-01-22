@@ -7,8 +7,10 @@ A Fabric Lib Mod.
 You can register like this:
 
 ```java
+
 public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(Registry.ITEM, MOD_ID);
 public static final Item EXAMPLE_ITEM = ITEMS.register("example_item", () -> new Item(new Item.Settings()));
+
 ```
 
 Block or other object are zhe same.
@@ -35,6 +37,7 @@ public class OnEventHandle {
 }
 
 ```
+And don't forget to check the Environment of it.  
 
 Moreover, you should add the path of all the events into your Main Class, just like this:
 
@@ -43,10 +46,11 @@ Moreover, you should add the path of all the events into your Main Class, just l
 @Override
 public void onInitialize() {
   ItemInit.ITEMS.register();
-  EventLoader.init("org.abstruck.qwq.init.event");
+  EventLoader.initEvent("org.abstruck.qwq.init.event");
 }
 
 ```
+If you put your event in __*std.init.event*__, it will be subscribe directly.  
 __Remember! Don't mix Mixin Class with SubscribeEvent Class, it will error!__  
 
 
