@@ -108,7 +108,7 @@ Add Mixin like this:
 public abstract class BlockMixin {
     @Inject(method = "afterBreak", at = @At("RETURN"))
     public void afterBreak(World world, PlayerEntity player, BlockPos pos, BlockState state, BlockEntity blockEntity, ItemStack stack, CallbackInfo ci){
-        EventManager.onEventAction(() -> new BlockEvent.AfterBreakEvent(world, player, pos, state, blockEntity, stack));
+        EventManager.onEventAction(() -> new AfterBreakEvent(world, player, pos, state, blockEntity, stack));
     }
 }
 
