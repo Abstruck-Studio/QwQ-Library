@@ -50,7 +50,7 @@ public void onInitialize() {
 }
 
 ```
-If you put your event in __*std.init.event*__, it will be subscribe directly.  
+If you put your event is in __*std.init.event*__, it will be subscribe directly.  
 __Remember! Don't mix Mixin Class with SubscribeEvent Class, it will error!__  
 
 
