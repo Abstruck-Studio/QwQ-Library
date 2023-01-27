@@ -40,4 +40,11 @@ public class LivingEntityEvent implements IEvent {
             return adversary;
         }
     }
+
+    public static class TickEvent extends LivingEntityEvent {
+
+        public TickEvent(LivingEntity entity) {
+            super(entity);
+        }
+    }
 }

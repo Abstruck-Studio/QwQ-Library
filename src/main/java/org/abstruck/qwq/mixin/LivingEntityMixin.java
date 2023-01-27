@@ -25,4 +25,10 @@ public abstract class LivingEntityMixin {
         LivingEntity self = (LivingEntity) (Object) this;
         EventManager.onEventAction(() -> new LivingEntityEvent.OnKilledByEvent(adversary, self));
     }
+
+    @Inject(method = "tick", at = @At("RETURN"))
+    public void tick(CallbackInfo ci) {
+        LivingEntity self = (LivingEntity) (Object) this;
+        EventManager.onEventAction(() -> new LivingEntityEvent.TickEvent(self));
+    }
 }
